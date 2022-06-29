@@ -16,17 +16,27 @@
 
             .left__block {
                 flex: 1 1 66%;
-                background: url(/bg_2.png) center / cover no-repeat;
+                background: url(./bg_2.png) center / cover no-repeat;
             }
 
             .right__block {
                 flex: 1 1 33%;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
+                
             }
 
             .text {
-                padding: 150px 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+
+            .text p {
+                display: inline-block;
+                
             }
 
             .img {
@@ -64,7 +74,8 @@
             }
 
             .text2 {
-                padding: 170px 50px;
+                margin: auto;
+                width: 500px;
             }
 
             .img2 {
@@ -91,9 +102,12 @@
             <div class="left__block"></div>
             <div class="right__block">
                 <div class="text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur ullam quos quam
-                    accusamus quod suscipit eligendi quas autem, assumenda libero deleniti natus distinctio ipsum beatae
-                    sint? Harum, voluptates tempore.
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur ullam quos quam
+                        accusamus quod suscipit eligendi quas autem, assumenda libero deleniti natus distinctio ipsum
+                        beatae
+                        sint? Harum, voluptates tempore.
+                    </p>
                 </div>
                 <div class="img">
                 </div>
@@ -116,4 +130,5 @@
             </div>
         </div>
     </body>
+
     </html>
